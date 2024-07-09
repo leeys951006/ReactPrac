@@ -1,4 +1,7 @@
-console.log('hello');
+import App from './app';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
-const root = document.getElementById('root') as HTMLElement;
-root.textContent = 'hello';
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+
+root.render(<App />);
