@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("hello")})();
+(()=>{"use strict";console.log("hello"),document.getElementById("root").textContent="hello"})();
